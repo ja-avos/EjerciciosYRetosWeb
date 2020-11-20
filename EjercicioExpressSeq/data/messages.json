@@ -1,0 +1,49 @@
+[
+    { "message": "Hola", "author": "Juan Avelino", "ts": 1600398497017 },
+    {
+        "message": "Hola piruco",
+        "author": "David Avelino",
+        "ts": 1600398568515
+    },
+    { "message": "Amazing", "author": "David Avelino", "ts": 1600398605772 },
+    {
+        "message": "Cierto que sí?",
+        "author": "Juan Avelino",
+        "ts": 1600398613727
+    },
+    {
+        "message": "Los hackeé",
+        "author": "infiltrado juan",
+        "ts": 1600399288743
+    },
+    {
+        "message": "Perdón (edited)",
+        "author": "Jefe Infiltrado",
+        "ts": 1600399403685
+    },
+    {
+        "message": "Quiero invitarlos a mi party (edited)",
+        "author": "Jefe Infiltrado",
+        "ts": 1600400133763
+    },
+    {
+        "message": "Es mañana",
+        "author": "Jefe Infiltrado",
+        "ts": 1600400347301
+    },
+    {
+        "message": "Me gustaría ir",
+        "author": "Juan Avelino",
+        "ts": 1600400379085
+    },
+    {
+        "message": "A mi también",
+        "author": "David Avelino",
+        "ts": 1600400388389
+    },
+    {
+        "message": "Vale acá los espero",
+        "author": "Jefe Infiltrado",
+        "ts": 1600400420951
+    }
+]

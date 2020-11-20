@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>API de clientes</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <section id="eventSection">
+                <h1 class="text-center">Listado de clientes</h1>
+                <table id="eventTable" class="table table-striped">
+                    <thead>
+                        <tr class="d-flex">
+                            <th scope="col" class="col-1">ID</th>
+                            <th scope="col" class="col-6">Nombre</th>
+                            <th scope="col" class="col-5">Contacto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ALFKI</th> 						
+			<td class="col-6">Alfreds Futterkiste</td> 						
+			<td class="col-5">Maria Anders</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ANATR</th> 						
+			<td class="col-6">Ana Trujillo Emparedados y helados</td> 						
+			<td class="col-5">Ana Trujillo</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ANTON</th> 						
+			<td class="col-6">Antonio Moreno Taquer</td> 						
+			<td class="col-5">Antonio Moreno</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">AROUT</th> 						
+			<td class="col-6">Around the Horn</td> 						
+			<td class="col-5">Thomas Hardy</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BERGS</th> 						
+			<td class="col-6">Berglunds snabbk</td> 						
+			<td class="col-5">Christina Berglund</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BLAUS</th> 						
+			<td class="col-6">Blauer See Delikatessen</td> 						
+			<td class="col-5">Hanna Moos</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BLONP</th> 						
+			<td class="col-6">Blondel p</td> 						
+			<td class="col-5">Fr</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BOLID</th> 						
+			<td class="col-6">B</td> 						
+			<td class="col-5">Mart</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BONAP</th> 						
+			<td class="col-6">Bon app'</td> 						
+			<td class="col-5">Laurence Lebihan</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BOTTM</th> 						
+			<td class="col-6">Bottom Dollar Markets</td> 						
+			<td class="col-5">Elizabeth Lincoln</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">BSBEV</th> 						
+			<td class="col-6">B's Beverages</td> 						
+			<td class="col-5">Victoria Ashworth</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">CACTU</th> 						
+			<td class="col-6">Cactus Comidas para llevar</td> 						
+			<td class="col-5">Patricio Simpson</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">CENTC</th> 						
+			<td class="col-6">Centro comercial Moctezuma</td> 						
+			<td class="col-5">Francisco Chang</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">CHOPS</th> 						
+			<td class="col-6">Chop suey Chinese</td> 						
+			<td class="col-5">Yang Wang</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">COMMI</th> 						
+			<td class="col-6">Com</td> 						
+			<td class="col-5">Pedro Afonso</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">CONSH</th> 						
+			<td class="col-6">Consolidated Holdings</td> 						
+			<td class="col-5">Elizabeth Brown</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">DRACD</th> 						
+			<td class="col-6">Drachenblut Delikatessen</td> 						
+			<td class="col-5">Sven Ottlieb</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">DUMON</th> 						
+			<td class="col-6">Du monde entier</td> 						
+			<td class="col-5">Janine Labrune</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">EASTC</th> 						
+			<td class="col-6">Eastern Connection</td> 						
+			<td class="col-5">Ann Devon</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ERNSH</th> 						
+			<td class="col-6">Ernst Handel</td> 						
+			<td class="col-5">Roland Mendel</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FAMIA</th> 						
+			<td class="col-6">Familia Arquibaldo</td> 						
+			<td class="col-5">Aria Cruz</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FISSA</th> 						
+			<td class="col-6">FISSA Fabrica Inter. Salchichas S.A.</td> 						
+			<td class="col-5">Diego Roel</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FOLIG</th> 						
+			<td class="col-6">Folies gourmandes</td> 						
+			<td class="col-5">Martine Ranc</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FOLKO</th> 						
+			<td class="col-6">Folk och f</td> 						
+			<td class="col-5">Maria Larsson</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FRANK</th> 						
+			<td class="col-6">Frankenversand</td> 						
+			<td class="col-5">Peter Franken</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FRANR</th> 						
+			<td class="col-6">France restauration</td> 						
+			<td class="col-5">Carine Schmitt</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FRANS</th> 						
+			<td class="col-6">Franchi S.p.A.</td> 						
+			<td class="col-5">Paolo Accorti</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">FURIB</th> 						
+			<td class="col-6">Furia Bacalhau e Frutos do Mar</td> 						
+			<td class="col-5">Lino Rodriguez </td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">GALED</th> 						
+			<td class="col-6">Galer</td> 						
+			<td class="col-5">Eduardo Saavedra</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">GODOS</th> 						
+			<td class="col-6">Godos Cocina T</td> 						
+			<td class="col-5">Jos</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">GOURL</th> 						
+			<td class="col-6">Gourmet Lanchonetes</td> 						
+			<td class="col-5">Andr</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">GREAL</th> 						
+			<td class="col-6">Great Lakes Food Market</td> 						
+			<td class="col-5">Howard Snyder</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">GROSR</th> 						
+			<td class="col-6">GROSELLA Restaurante</td> 						
+			<td class="col-5">Manuel Pereira</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">HANAR</th> 						
+			<td class="col-6">Hanari Carnes</td> 						
+			<td class="col-5">Mario Pontes</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">HILAA</th> 						
+			<td class="col-6">HILARI</td> 						
+			<td class="col-5">Carlos Hern</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">HUNGC</th> 						
+			<td class="col-6">Hungry Coyote Import Store</td> 						
+			<td class="col-5">Yoshi Latimer</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">HUNGO</th> 						
+			<td class="col-6">Hungry Owl All Night Grocers</td> 						
+			<td class="col-5">Patricia McKenna</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ISLAT</th> 						
+			<td class="col-6">Island Trading</td> 						
+			<td class="col-5">Helen Bennett</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">KOENE</th> 						
+			<td class="col-6">K</td> 						
+			<td class="col-5">Philip Cramer</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LACOR</th> 						
+			<td class="col-6">La corne d'abondance</td> 						
+			<td class="col-5">Daniel Tonini</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LAMAI</th> 						
+			<td class="col-6">La maison d'Asie</td> 						
+			<td class="col-5">Annette Roulet</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LAUGB</th> 						
+			<td class="col-6">Laughing Bacchus Wine Cellars</td> 						
+			<td class="col-5">Yoshi Tannamuri</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LAZYK</th> 						
+			<td class="col-6">Lazy K Kountry Store</td> 						
+			<td class="col-5">John Steel</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LEHMS</th> 						
+			<td class="col-6">Lehmanns Marktstand</td> 						
+			<td class="col-5">Renate Messner</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LETSS</th> 						
+			<td class="col-6">Let's Stop N Shop</td> 						
+			<td class="col-5">Jaime Yorres</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LILAS</th> 						
+			<td class="col-6">LILA Supermercado</td> 						
+			<td class="col-5">Carlos Gonz</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LINOD</th> 						
+			<td class="col-6">LINO Delicateses</td> 						
+			<td class="col-5">Felipe Izquierdo</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">LONEP</th> 						
+			<td class="col-6">Lonesome Pine Restaurant</td> 						
+			<td class="col-5">Fran Wilson</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">MAGAA</th> 						
+			<td class="col-6">Magazzini Alimentari Riuniti</td> 						
+			<td class="col-5">Giovanni Rovelli</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">MAISD</th> 						
+			<td class="col-6">Maison Dewey</td> 						
+			<td class="col-5">Catherine Dewey</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">MEREP</th> 						
+			<td class="col-6">M</td> 						
+			<td class="col-5">Jean Fresni</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">MORGK</th> 						
+			<td class="col-6">Morgenstern Gesundkost</td> 						
+			<td class="col-5">Alexander Feuer</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">NORTS</th> 						
+			<td class="col-6">North/South</td> 						
+			<td class="col-5">Simon Crowther</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">OCEAN</th> 						
+			<td class="col-6">Oc</td> 						
+			<td class="col-5">Yvonne Moncada</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">OLDWO</th> 						
+			<td class="col-6">Old World Delicatessen</td> 						
+			<td class="col-5">Rene Phillips</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">OTTIK</th> 						
+			<td class="col-6">Ottilies K</td> 						
+			<td class="col-5">Henriette Pfalzheim</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">PARIS</th> 						
+			<td class="col-6">Paris sp</td> 						
+			<td class="col-5">Marie Bertrand</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">PERIC</th> 						
+			<td class="col-6">Pericles Comidas cl</td> 						
+			<td class="col-5">Guillermo Fern</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">PICCO</th> 						
+			<td class="col-6">Piccolo und mehr</td> 						
+			<td class="col-5">Georg Pipps</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">PRINI</th> 						
+			<td class="col-6">Princesa Isabel Vinhos</td> 						
+			<td class="col-5">Isabel de Castro</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">QUEDE</th> 						
+			<td class="col-6">Que Del</td> 						
+			<td class="col-5">Bernardo Batista</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">QUEEN</th> 						
+			<td class="col-6">Queen Cozinha</td> 						
+			<td class="col-5">L</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">QUICK</th> 						
+			<td class="col-6">QUICK Stop</td> 						
+			<td class="col-5">Horst Kloss</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">RANCH</th> 						
+			<td class="col-6">Rancho grande</td> 						
+			<td class="col-5">Sergio Guti</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">RATTC</th> 						
+			<td class="col-6">Rattlesnake Canyon Grocery</td> 						
+			<td class="col-5">Paula Wilson</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">REGGC</th> 						
+			<td class="col-6">Reggiani Caseifici</td> 						
+			<td class="col-5">Maurizio Moroni</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">RICAR</th> 						
+			<td class="col-6">Ricardo Adocicados</td> 						
+			<td class="col-5">Janete Limeira</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">RICSU</th> 						
+			<td class="col-6">Richter Supermarkt</td> 						
+			<td class="col-5">Michael Holz</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">ROMEY</th> 						
+			<td class="col-6">Romero y tomillo</td> 						
+			<td class="col-5">Alejandra Camino</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SANTG</th> 						
+			<td class="col-6">Sant</td> 						
+			<td class="col-5">Jonas Bergulfsen</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SAVEA</th> 						
+			<td class="col-6">Save a lot Markets</td> 						
+			<td class="col-5">Jose Pavarotti</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SEVES</th> 						
+			<td class="col-6">Seven Seas Imports</td> 						
+			<td class="col-5">Hari Kumar</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SIMOB</th> 						
+			<td class="col-6">Simons bistro</td> 						
+			<td class="col-5">Jytte Petersen</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SPECD</th> 						
+			<td class="col-6">Sp</td> 						
+			<td class="col-5">Dominique Perrier</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SPLIR</th> 						
+			<td class="col-6">Split Rail Beer & Ale</td> 						
+			<td class="col-5">Art Braunschweiger</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">SUPRD</th> 						
+			<td class="col-6">Supr</td> 						
+			<td class="col-5">Pascale Cartrain</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">THEBI</th> 						
+			<td class="col-6">The Big Cheese</td> 						
+			<td class="col-5">Liz Nixon</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">THECR</th> 						
+			<td class="col-6">The Cracker Box</td> 						
+			<td class="col-5">Liu Wong</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">TOMSP</th> 						
+			<td class="col-6">Toms Spezialit</td> 						
+			<td class="col-5">Karin Josephs</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">TORTU</th> 						
+			<td class="col-6">Tortuga Restaurante</td> 						
+			<td class="col-5">Miguel Angel Paolino</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">TRADH</th> 						
+			<td class="col-6">Tradi</td> 						
+			<td class="col-5">Anabela Domingues</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">TRAIH</th> 						
+			<td class="col-6">Trail's Head Gourmet Provisioners</td> 						
+			<td class="col-5">Helvetius Nagy</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">VAFFE</th> 						
+			<td class="col-6">Vaffeljernet</td> 						
+			<td class="col-5">Palle Ibsen</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">VICTE</th> 						
+			<td class="col-6">Victuailles en stock</td> 						
+			<td class="col-5">Mary Saveley</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">VINET</th> 						
+			<td class="col-6">Vins et alcools Chevalier</td> 						
+			<td class="col-5">Paul Henriot</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WANDK</th> 						
+			<td class="col-6">Die Wandernde Kuh</td> 						
+			<td class="col-5">Rita M</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WARTH</th> 						
+			<td class="col-6">Wartian Herkku</td> 						
+			<td class="col-5">Pirkko Koskitalo</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WELLI</th> 						
+			<td class="col-6">Wellington Importadora</td> 						
+			<td class="col-5">Paula Parente</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WHITC</th> 						
+			<td class="col-6">White Clover Markets</td> 						
+			<td class="col-5">Karl Jablonski</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WILMK</th> 						
+			<td class="col-6">Wilman Kala</td> 						
+			<td class="col-5">Matti Karttunen</td> 							</tr> 
+		<tr class="d-flex"> 						
+			<th scope="row" class="col-1">WOLZA</th> 						
+			<td class="col-6">Wolski  Zajazd</td> 						
+			<td class="col-5">Zbyszek Piestrzeniewicz</td> 							</tr> 
+
+                        <!-- <tr class="d-flex">
+                            <th scope="row" class="col-1">1</th>
+                            <td class="col-6">Nombre 1</td>
+                            <td class="col-5">Contacto 1</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

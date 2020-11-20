@@ -1,0 +1,36 @@
+.brown {
+    background-color: #5b493c;
+}
+
+.pink {
+    background-color: #c39182;
+}
+
+.yellow {
+    background-color: #f99a3e;
+}
+
+.blue {
+    background-color: #00a2b6;
+}
+
+.magenta {
+    background-color: #c5697a;
+}
+
+.bone {
+    background-color: #f2f2f2;
+}
+
+.content {
+    height: 300px;
+    line-height: 300px;
+}
+
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: xx-large;
+}
